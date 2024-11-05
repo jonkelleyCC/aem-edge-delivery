@@ -2,8 +2,9 @@
 Your project's description...
 
 ## Environments
-- Preview: https://main--{repo}--{owner}.aem.page/
-- Live: https://main--{repo}--{owner}.aem.live/
+- Author: https://author-p123749-e1215043.adobeaemcloud.com/ui#/aem/sites.html/content/viking-universal-editor
+- Preview: https://main--aem-edge-delivery--jonkelleycc.aem.page
+- Live: https://main--aem-edge-delivery--jonkelleycc.hlx.page
 
 ## Installation
 
