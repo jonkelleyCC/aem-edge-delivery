@@ -1,7 +1,7 @@
 {
   "mappings": [
-    "/content/aem-boilerplate/:/",
-    "/content/aem-boilerplate/configuration:/.helix/config.json",
-    "/content/aem-boilerplate/metadata:/metadata.json"
+    "/content/viking-universal-editor/:/",
+    "/content/viking-universal-editor/configuration:/.helix/config.json",
+    "/content/viking-universal-editor/metadata:/metadata.json"
   ]
 }
