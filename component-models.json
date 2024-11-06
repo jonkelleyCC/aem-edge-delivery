@@ -214,5 +214,16 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "reference",
+    "fields": [
+      {
+        "component": "reference",
+        "label": "Reference",
+        "name": "reference",
+        "valueType": "string"
+      }
+    ]
   }
 ]
