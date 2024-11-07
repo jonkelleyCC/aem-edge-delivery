@@ -24,6 +24,7 @@ export default async function decorate(block) {
   const fragment = await loadFragment(path);
   if (fragment) {
     // const container = block.querySelector('>div');
-    // console.log(fragment);
+    // eslint-disable-next-line no-console
+    console.log(fragment);
   }
 }
