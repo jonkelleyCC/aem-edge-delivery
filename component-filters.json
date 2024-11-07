@@ -17,7 +17,7 @@
       "columns",
       "fragment",
       "quote",
-      "contentFragment",
+      "content-fragment",
       "reference"
     ]
   },
@@ -40,7 +40,7 @@
       "image",
       "button",
       "title",
-      "contentFragment"
+      "content-fragment"
     ]
   }
 ]

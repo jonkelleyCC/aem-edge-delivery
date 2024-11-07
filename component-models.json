@@ -205,7 +205,7 @@
     ]
   },
   {
-    "id": "contentFragment",
+    "id": "content-fragment",
     "fields": [
       {
         "component": "aem-content-fragment",
