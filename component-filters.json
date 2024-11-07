@@ -15,10 +15,7 @@
       "hero",
       "cards",
       "columns",
-      "fragment",
-      "quote",
-      "content-fragment",
-      "reference"
+      "fragment"
     ]
   },
   {
@@ -39,8 +36,7 @@
       "text",
       "image",
       "button",
-      "title",
-      "content-fragment"
+      "title"
     ]
   }
 ]

@@ -150,6 +150,18 @@
     ]
   },
   {
+    "id": "content-fragment",
+    "fields": [
+      {
+        "component": "aem-content-fragment",
+        "name": "picker",
+        "label": "Content Fragment Picker",
+        "valueType": "string",
+        "variationName": "contentFragmentVariation"
+      }
+    ]
+  },
+  {
     "id": "fragment",
     "fields": [
       {
@@ -181,48 +193,6 @@
         "name": "text",
         "value": "",
         "label": "Text",
-        "valueType": "string"
-      }
-    ]
-  },
-  {
-    "id": "quote",
-    "fields": [
-      {
-        "component": "richtext",
-        "name": "quote",
-        "value": "",
-        "label": "Quote",
-        "valueType": "string"
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "author",
-        "label": "Author",
-        "value": ""
-      }
-    ]
-  },
-  {
-    "id": "content-fragment",
-    "fields": [
-      {
-        "component": "aem-content-fragment",
-        "name": "picker",
-        "label": "Content Fragment Picker",
-        "valueType": "string",
-        "variationName": "contentFragmentVariation"
-      }
-    ]
-  },
-  {
-    "id": "reference",
-    "fields": [
-      {
-        "component": "reference",
-        "label": "Reference",
-        "name": "reference",
         "valueType": "string"
       }
     ]
