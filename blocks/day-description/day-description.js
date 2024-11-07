@@ -23,7 +23,7 @@ export default async function decorate(block) {
   const path = link ? link.getAttribute('href') : block.textContent.trim();
   const fragment = await loadFragment(path);
   if (fragment) {
-    const container = block.querySelector('>div');
-    console.log(fragment);
+    // const container = block.querySelector('>div');
+    // console.log(fragment);
   }
 }
