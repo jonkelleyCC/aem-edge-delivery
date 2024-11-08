@@ -122,6 +122,20 @@
         "multi": false
       },
       {
+        "component": "text",
+        "valueType": "string",
+        "name": "subtitle",
+        "value": "",
+        "label": "Subtitle"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "title",
+        "value": "",
+        "label": "Title"
+      },
+      {
         "component": "richtext",
         "name": "text",
         "value": "",
@@ -181,17 +195,6 @@
         "name": "text",
         "value": "",
         "label": "Text",
-        "valueType": "string"
-      }
-    ]
-  },
-  {
-    "id": "day-description",
-    "fields": [
-      {
-        "component": "aem-content-fragment",
-        "name": "picker",
-        "label": "Content Fragment Picker",
         "valueType": "string"
       }
     ]
