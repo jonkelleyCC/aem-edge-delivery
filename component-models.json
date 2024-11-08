@@ -126,14 +126,16 @@
         "valueType": "string",
         "name": "subtitle",
         "value": "",
-        "label": "Subtitle"
+        "label": "Subtitle",
+        "type": "h5"
       },
       {
         "component": "text",
         "valueType": "string",
         "name": "title",
         "value": "",
-        "label": "Title"
+        "label": "Title",
+        "textType": "h4"
       },
       {
         "component": "richtext",

@@ -20,7 +20,10 @@ export default function decorate(block) {
       } else if (div.querySelector('[data-aue-prop="title"]')) {
         div.className = 'cards-card-title';
         textContainer.appendChild(div);
-      } else div.className = 'cards-card-text';
+      } else {
+        div.className = 'cards-card-text';
+        textContainer.appendChild(div);
+      }
     });
     ul.append(li);
   });

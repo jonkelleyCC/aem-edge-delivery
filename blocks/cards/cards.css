@@ -2,13 +2,12 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
-  grid-gap: 24px;
 }
 
 .cards > ul > li {
   background-color: var(--background-color);
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .cards .cards-card-text {
@@ -17,6 +16,8 @@
 
 .cards .cards-card-image {
   line-height: 0;
+  flex-basis: 400px;
+  flex-shrink: 0;
 }
 
 .cards > ul > li img {
