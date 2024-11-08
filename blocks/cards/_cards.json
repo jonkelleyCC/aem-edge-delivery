@@ -43,18 +43,20 @@
           "multi": false
         },
         {
-          "component": "text",
+          "component": "title",
           "valueType": "string",
           "name": "subtitle",
           "value": "",
-          "label": "Subtitle"
+          "label": "Subtitle",
+          "type": "h5"
         },
         {
-          "component": "text",
+          "component": "title",
           "valueType": "string",
           "name": "title",
           "value": "",
-          "label": "Title"
+          "label": "Title",
+          "type": "h4"
         },
         {
           "component": "richtext",

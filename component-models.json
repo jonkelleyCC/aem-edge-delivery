@@ -122,7 +122,7 @@
         "multi": false
       },
       {
-        "component": "text",
+        "component": "title",
         "valueType": "string",
         "name": "subtitle",
         "value": "",
@@ -130,12 +130,12 @@
         "type": "h5"
       },
       {
-        "component": "text",
+        "component": "title",
         "valueType": "string",
         "name": "title",
         "value": "",
         "label": "Title",
-        "textType": "h4"
+        "type": "h4"
       },
       {
         "component": "richtext",
