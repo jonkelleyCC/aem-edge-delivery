@@ -11,7 +11,7 @@
       "title": "Generate Variations",
       "url": "https://experience.adobe.com/#/@crescendoamericasptrsd/aem/generate-variations",
       "passConfig": true,
-      "environments": ["preview", "live", "edit"],
+      "environments": ["preview", "live", "edit", "admin", "dev"],
       "includePaths": ["**.docx**", "**/aem/universal-editor/canvas**"]
     }
   ]
