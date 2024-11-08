@@ -14,10 +14,10 @@ export default function decorate(block) {
       if (div.children.length === 1 && div.querySelector('picture')) {
         div.className = 'cards-card-image';
         div.after(textContainer);
-      } else if (div.querySelector('[data-aue-prop]="subtitle"')) {
+      } else if (div.querySelector('[data-aue-prop="subtitle"]')) {
         div.className = 'cards-card-subtitle';
         textContainer.appendChild(div);
-      } else if (div.querySelector('[data-aue-prop]="title"')) {
+      } else if (div.querySelector('[data-aue-prop="title"]')) {
         div.className = 'cards-card-title';
         textContainer.appendChild(div);
       } else div.className = 'cards-card-text';
