@@ -198,5 +198,16 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "content-fragment",
+    "fields": [
+      {
+        "component": "aem-content-fragment",
+        "name": "picker",
+        "label": "Content Fragment Picker",
+        "valueType": "string"
+      }
+    ]
   }
 ]
