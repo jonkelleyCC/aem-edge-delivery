@@ -19,12 +19,14 @@ export async function loadFragment(path) {
 }
 
 export default async function decorate(block) {
-  const link = block.querySelector('a');
-  const path = link ? link.getAttribute('href') : block.textContent.trim();
-  const fragment = await loadFragment(path);
-  if (fragment) {
-    // const container = block.querySelector('>div');
-    // eslint-disable-next-line no-console
-    console.log(fragment);
-  }
+  // eslint-disable-next-line no-console
+  console.log(block);
+  // const link = block.querySelector('a');
+  // const path = link ? link.getAttribute('href') : block.textContent.trim();
+  // const fragment = await loadFragment(path);
+  // if (fragment) {
+  //   // const container = block.querySelector('>div');
+  //   // eslint-disable-next-line no-console
+  //   console.log(fragment);
+  // }
 }

@@ -200,12 +200,12 @@
     ]
   },
   {
-    "id": "content-fragment",
+    "id": "day-description",
     "fields": [
       {
         "component": "aem-content-fragment",
-        "name": "picker",
-        "label": "Content Fragment Picker",
+        "name": "path",
+        "label": "Day Description Picker",
         "valueType": "string"
       }
     ]
