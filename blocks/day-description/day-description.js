@@ -31,7 +31,7 @@ export default async function decorate(block) {
   console.log(fragment);
 
   if (fragment) {
-    const container = block.querySelector('>div');
+    const container = block.querySelector(':scope > div');
     // empty container of all contents including the anchor element
     container.replaceChildren();
 
