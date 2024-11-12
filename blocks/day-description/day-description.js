@@ -57,9 +57,9 @@ export default async function decorate(block) {
     title.innerText = fragment?.destination;
     textContainer.appendChild(title);
 
-    const description = document.createElement('p');
+    const description = document.createElement('span');
     description.classList.add('day-description__description');
-    description.innerText = fragment?.description;
+    description.innerHTML = fragment?.description;
     textContainer.appendChild(description);
   }
 }
