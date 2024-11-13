@@ -30,6 +30,7 @@ export default async function decorate(block) {
   console.log(fragment);
 
   if (fragment) {
+    // add attributes to tie to block to content fragment
     block.dataset.aueResource = `urn:aemconnection:${path}/jcr:content/data/master`;
     block.dataset.aueType = 'reference';
     block.dataset.aueFilter = 'cf';
@@ -50,21 +51,25 @@ export default async function decorate(block) {
     const image = document.createElement('img');
     image.classList.add('day-description__image');
     image.src = fragment?.image;
+    image.dataset.aueProp = 'image';
     imageContainer.appendChild(image);
 
     const subtitle = document.createElement('p');
     subtitle.classList.add('day-description__subtitle');
     subtitle.innerText = fragment?.dayNumber;
+    subtitle.dataset.aueProp = 'dayNumber';
     textContainer.appendChild(subtitle);
 
     const title = document.createElement('h4');
     title.classList.add('day-description__title');
     title.innerText = fragment?.destination;
+    title.dataset.aueProp = 'destination';
     textContainer.appendChild(title);
 
     const description = document.createElement('span');
     description.classList.add('day-description__description');
     description.innerHTML = fragment?.description;
+    description.dataset.aueProp = 'description';
     textContainer.appendChild(description);
   }
 }
