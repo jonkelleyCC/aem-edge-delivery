@@ -9,8 +9,6 @@
 // eslint-disable-next-line consistent-return
 export async function loadFragment(path) {
   if (path && path.startsWith('/')) {
-    // eslint-disable-next-line no-param-reassign
-    path = path.replace(/(\.plain)?\.html/, '');
     const resp = await fetch(`${path}.infinity.json`);
     if (!resp.ok) {
       throw new Error(`Response status: ${resp.status}`);
@@ -25,7 +23,8 @@ export default async function decorate(block) {
   // eslint-disable-next-line no-console
   console.log(block);
   const link = block.querySelector('a');
-  const path = link ? link.getAttribute('href') : block.textContent.trim();
+  const path = (link ? link.getAttribute('href') : block.textContent.trim())
+    .replace(/(\.plain)?\.html/, '');
   const fragment = await loadFragment(path);
   // eslint-disable-next-line no-console
   console.log(fragment);
