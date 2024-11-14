@@ -206,7 +206,8 @@
         "component": "aem-content-fragment",
         "name": "path",
         "label": "Day Description Picker",
-        "valueType": "string"
+        "valueType": "string",
+        "rootPath": "/content/dam/content-fragments/viking/day-descriptions"
       }
     ]
   }
