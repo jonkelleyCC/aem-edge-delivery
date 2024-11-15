@@ -1,8 +1,11 @@
-.faq-wrapper {
-  padding: 16px 0;
+main > .section > div.faq-wrapper {
+  padding-top: 16px;
+  padding-bottom: 16px;
 
   &:not(:last-of-type) {
-    border-bottom: 1px solid #dcdcdc;
+    .faq {
+      border-bottom: 1px solid #dcdcdc;
+    }
   }
 }
 
