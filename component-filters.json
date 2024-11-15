@@ -15,7 +15,9 @@
       "hero",
       "cards",
       "columns",
-      "fragment"
+      "fragment",
+      "day-description",
+      "faq"
     ]
   },
   {
@@ -37,7 +39,8 @@
       "image",
       "button",
       "title",
-      "day-description"
+      "day-description",
+      "faq"
     ]
   }
 ]
