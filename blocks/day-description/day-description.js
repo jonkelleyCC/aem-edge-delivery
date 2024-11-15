@@ -30,7 +30,6 @@ export default async function decorate(block) {
     block.dataset.aueResource = `urn:aemconnection:${path}/jcr:content/data/master`;
     block.dataset.aueType = 'reference';
     block.dataset.aueFilter = 'cf';
-    block.removeAttribute('data-aue-model');
 
     const container = block.querySelector(':scope > div');
     // empty container of all contents including the anchor element
