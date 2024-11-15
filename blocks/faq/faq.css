@@ -1,14 +1,14 @@
+.faq {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
 .faq-wrapper {
   &:not(:last-of-type) {
     .faq {
       border-bottom: 1px solid #dcdcdc;
     }
   }
-}
-
-.faq {
-  padding-top: 16px;
-  padding-bottom: 16px;
 }
 
 .faq__question {
