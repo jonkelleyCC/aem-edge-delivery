@@ -28,7 +28,7 @@ export default async function decorate(block) {
   if (fragment) {
     // add attributes to tie to block to content fragment
     block.dataset.aueResource = `urn:aemconnection:${path}/jcr:content/data/master`;
-    block.dataset.aueType = 'reference';
+    block.dataset.aueType = 'component';
     block.dataset.aueFilter = 'cf';
     block.removeAttribute('data-aue-model');
 
