@@ -15,7 +15,8 @@ export async function loadFragment(path) {
     }
 
     const json = await resp.json();
-    return json['jcr:content']?.data?.master || {};
+    const id = json['jcr:uuid'] || '';
+    return { ...json['jcr:content']?.data?.master, id } || {};
   }
 }
 
@@ -31,6 +32,7 @@ export default async function decorate(block) {
     block.dataset.aueType = 'component';
     block.dataset.aueFilter = 'cf';
     block.removeAttribute('data-aue-model');
+    block.setAttribute('id', fragment.id);
 
     const container = block.querySelector(':scope > div');
     // empty container of all contents including the anchor element
