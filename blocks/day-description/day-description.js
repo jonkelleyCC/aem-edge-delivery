@@ -15,8 +15,7 @@ export async function loadFragment(path) {
     }
 
     const json = await resp.json();
-    const id = json['jcr:uuid'] || '';
-    return { ...json['jcr:content']?.data?.master, id } || {};
+    return json['jcr:content']?.data?.master || {};
   }
 }
 
@@ -29,10 +28,9 @@ export default async function decorate(block) {
   if (fragment) {
     // add attributes to tie to block to content fragment
     block.dataset.aueResource = `urn:aemconnection:${path}/jcr:content/data/master`;
-    block.dataset.aueType = 'component';
+    block.dataset.aueType = 'reference';
     block.dataset.aueFilter = 'cf';
     block.removeAttribute('data-aue-model');
-    block.setAttribute('id', fragment.id);
 
     const container = block.querySelector(':scope > div');
     // empty container of all contents including the anchor element
