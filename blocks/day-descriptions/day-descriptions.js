@@ -3,8 +3,8 @@ import { moveInstrumentation } from '../../scripts/scripts.js';
 
 // eslint-disable-next-line consistent-return
 export async function loadFragment(path) {
-  const aemAuthorUrl = 'https://author-p123749-e1215043.adobeaemcloud.com/';
-  const aemPublishUrl = 'https://publish-p123749-e1215043.adobeaemcloud.com/';
+  const aemAuthorUrl = 'https://author-p123749-e1215043.adobeaemcloud.com';
+  const aemPublishUrl = 'https://publish-p123749-e1215043.adobeaemcloud.com';
   const persistedQuery = '/graphql/execute.json/Content-Fragments/day-description-by-path';
 
   const url = window.location && window.location.origin && window.location.origin.includes('author')
