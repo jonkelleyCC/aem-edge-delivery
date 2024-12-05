@@ -16,7 +16,8 @@
       "cards",
       "columns",
       "fragment",
-      "day-descriptions"
+      "day-descriptions",
+      "faq"
     ]
   },
   {
@@ -38,7 +39,8 @@
       "image",
       "button",
       "title",
-      "day-description"
+      "day-description",
+      "faq"
     ]
   },
   {

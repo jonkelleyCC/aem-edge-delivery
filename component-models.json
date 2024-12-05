@@ -220,5 +220,24 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "faq",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "question",
+        "value": "",
+        "label": "Question"
+      },
+      {
+        "component": "richtext",
+        "name": "answer",
+        "value": "",
+        "label": "Answer",
+        "valueType": "string"
+      }
+    ]
   }
 ]
