@@ -40,6 +40,7 @@ export default function decorate(block) {
         '',
       );
       const fragment = await loadFragment(path);
+      if (Object.keys(fragment).length === 0) return;
 
       // li.dataset.aueResource = `urn:aemconnection:${path}/jcr:content/data/master`;
       // li.dataset.aueType = 'reference';
