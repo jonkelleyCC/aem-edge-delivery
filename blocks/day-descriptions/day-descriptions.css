@@ -2,3 +2,31 @@
   list-style: none;
   padding-left: 0;
 }
+
+.day-descriptions .day-description {
+  margin-bottom: 48px;
+
+  > div {
+    display: flex;
+  }
+
+  .image-container {
+    flex-basis: 400px;
+    flex-shrink: 0;
+  }
+
+  .text-container {
+    padding-left: 24px;
+
+    .day-description__subtitle {
+      margin: 0;
+      font-weight: bold;
+      color: #44687d;
+    }
+
+    .day-description__title {
+      margin-top: 0;
+      font-size: 28px;
+    }
+  }
+}

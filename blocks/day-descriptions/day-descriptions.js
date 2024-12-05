@@ -30,6 +30,8 @@ export default function decorate(block) {
   [...block.children].forEach((row) => {
     const li = document.createElement('li');
     moveInstrumentation(row, li);
+    li.classList.add('day-description');
+
     while (row.firstElementChild) li.append(row.firstElementChild);
     [...li.children].forEach(async (div) => {
       const link = div.querySelector('a');
